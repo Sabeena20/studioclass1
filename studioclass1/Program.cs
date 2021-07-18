@@ -9,7 +9,7 @@ namespace studioclass1
             double pi = 3.14;
             Console.WriteLine("Enter the radius");
             string radius = Console.ReadLine();
-            int r = int.Parse(radius); // MPG
+            float r = float.Parse(radius); // MPG
 
 
             double areaOfCircle = pi * r * r;
